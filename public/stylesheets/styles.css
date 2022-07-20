@@ -5,3 +5,71 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    align-items: center;
+}
+#head {
+   
+    background-color: rgb(57, 146, 219);
+    border-color: #E7E7E7;
+    
+}
+.nav-link {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(.625rem, 3vw, 1rem);
+    
+    
+}
+#buttons #but1 {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+background-color: #2e518b; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+text-transform: uppercase; /*capitalización texto*/
+font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+border-radius: 50px; /*bordes redondos*/
+}
+
+#buttons #but2 {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+background-color: #2e518b; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+text-transform: uppercase; /*capitalización texto*/
+font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+border-radius: 50px; /*bordes redondos*/
+}
+
+#container {
+    display:flex;
+  flex-wrap:wrap;
+  flex-flow: column;
+  justify-content:space-around;
+}
+.ele {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+
+}
+
+footer {
+    background-color: #0a2c42;
+    color: white;
+    font-weight: 400;
+    padding: 5px 0 5px 30px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: left;
+}

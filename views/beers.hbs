@@ -1,7 +1,10 @@
-<nav>
-  <div>
-    <a href='/'>Home</a>
-    <a href='/beers'>Beers</a>
-    <a href='/random-beer'></a>
-  </div>
-</nav>
+<h1>Beers</h1>
+<div id="container">
+<div class="ele">
+{{#each beersApi}}
+<li>
+    {{>partials this }}
+    </li>
+{{/each}}
+</div>
+</div>

@@ -1,0 +1,16 @@
+<div>
+  {{#each beers}}
+    <div>
+      <div>
+      
+          {{#each this.food_pairing}}
+            <li> {{this}}</li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  {{/each}}
+  <div class='buttons'>
+    <a href='/beers'>Go back to beers list</a>
+  </div>
+</div>
